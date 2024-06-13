@@ -33,7 +33,7 @@ const ArrowDetail = forwardRef<HTMLDivElement, Props>(
             sizes="100vw"
             className="z-50 mx-auto w-full max-w-xs object-cover"
           />
-          <div className="mx-auto flex max-w-screen-2xl flex-col items-center gap-y-12 text-center">
+          <div className="mx-auto flex max-w-screen-md flex-col items-center gap-y-12 text-center">
             <h2 className="max-w-3xl text-2xl font-semibold sm:text-5xl">
               An international collaborative of blockchain pioneers
             </h2>

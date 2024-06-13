@@ -42,7 +42,7 @@ const AboutUs = forwardRef<HTMLDivElement, Props>(
           <h2 className="z-50 max-w-4xl space-y-4 text-2xl font-semibold sm:text-5xl">
             We're on a mission to revolutionize the blockchain ecosystem
           </h2>
-          <div className="z-50 flex max-w-screen-2xl flex-col gap-y-6 text-sm text-[#b9bac3] sm:text-lg">
+          <div className="z-50 flex max-w-screen-md flex-col gap-y-6 text-sm text-[#b9bac3] sm:text-lg">
             <p>
               At Unit Code, we are dedicated to developing state-of-the-art
               decentralized platform applications that transform and redefine

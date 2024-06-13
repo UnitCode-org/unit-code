@@ -15,7 +15,7 @@ const UnitNetwork = forwardRef<HTMLDivElement, Props>(
     return (
       <section
         className={cn(
-          "relative z-40 w-full overflow-hidden bg-white px-8 py-16 pb-80 sm:px-16 sm:py-36 xl:py-52",
+          "relative z-40 w-full overflow-hidden bg-white px-8 py-16 pb-56 sm:px-16 sm:py-24 sm:pb-56 lg:py-24 xl:py-52",
           className,
         )}
         ref={ref}
@@ -39,16 +39,18 @@ const UnitNetwork = forwardRef<HTMLDivElement, Props>(
               </Link>
             </div>
           </div>
-          <Image
-            src="/images/unit-3d.png"
-            alt="Unit Network"
-            priority={true}
-            quality={100}
-            width={0}
-            height={0}
-            sizes="100vw"
-            className="absolute bottom-0 right-0 w-full max-w-3xl object-cover sm:w-[50vw]"
-          />
+          <div className="relative">
+            <Image
+              src="/images/unit-3d.png"
+              alt="Unit Network"
+              priority={true}
+              quality={100}
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="absolute left-0 right-0 mx-auto w-full max-w-3xl object-cover sm:top-0 sm:w-[50vw] lg:top-[-120px] xl:top-[-150px] 2xl:top-[-200px]"
+            />
+          </div>
         </div>
       </section>
     );
