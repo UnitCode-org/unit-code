@@ -20,7 +20,7 @@ const Hero = forwardRef<HTMLDivElement, Props>(
     return (
       <section
         className={cn(
-          "flex w-full max-w-screen-lg grid-cols-1 flex-col-reverse items-center gap-x-8 gap-y-8 overflow-hidden px-8 pb-12 pt-32 sm:grid sm:min-h-screen sm:px-16 sm:pb-0 sm:pt-36 lg:grid-cols-2 lg:pt-0",
+          "flex w-full max-w-screen-2xl grid-cols-1 flex-col-reverse items-center gap-x-8 gap-y-8 overflow-hidden px-8 pb-12 pt-32 sm:grid sm:min-h-screen sm:px-16 sm:pb-0 sm:pt-36 lg:grid-cols-2 lg:pt-0",
           className,
         )}
         ref={ref}

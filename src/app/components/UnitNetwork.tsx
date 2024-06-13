@@ -21,7 +21,7 @@ const UnitNetwork = forwardRef<HTMLDivElement, Props>(
         ref={ref}
         {...props}
       >
-        <div className="mx-auto grid max-w-screen-lg grid-cols-1 items-center gap-4 lg:grid-cols-2">
+        <div className="mx-auto grid max-w-screen-2xl grid-cols-1 items-center gap-4 lg:grid-cols-2">
           <div className="flex flex-col items-center justify-center gap-y-4 text-center font-semibold md:pr-0 lg:items-start lg:text-start">
             <h2 className="text-2xl text-unit-black-80 sm:text-5xl">
               Explore <span className="text-unit-purple-40">Unit Network</span>

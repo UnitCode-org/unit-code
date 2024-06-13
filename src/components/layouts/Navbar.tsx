@@ -14,7 +14,7 @@ function Navbar() {
   return (
     <Sheet>
       <nav className="fixed left-0 top-0 z-[60] w-screen bg-black/10 backdrop-blur-md">
-        <div className="mx-auto flex w-full max-w-screen-lg items-center gap-x-8 px-8 py-6 font-poppins font-medium transition-all sm:px-16">
+        <div className="mx-auto flex w-full max-w-screen-2xl items-center gap-x-8 px-8 py-6 font-poppins font-medium transition-all sm:px-16">
           <div className="mr-auto flex items-center gap-x-3">
             <Link href="/" className="relative size-8">
               <Image

@@ -13,7 +13,7 @@ import { Separator } from "../ui/separator";
 
 function Footer() {
   return (
-    <footer className="grid w-full max-w-screen-lg grid-cols-2 justify-between px-8 py-8 sm:px-16 sm:py-32">
+    <footer className="grid w-full max-w-screen-2xl grid-cols-2 justify-between px-8 py-8 sm:px-16 sm:py-32">
       <div className="flex flex-col gap-y-4 sm:gap-y-7">
         <h2 className="text-sm font-medium sm:text-xl">Unit Code</h2>
         <Separator className="w-20 bg-[#3E3E3E] sm:w-80" />

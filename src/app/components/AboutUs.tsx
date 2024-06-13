@@ -34,7 +34,7 @@ const AboutUs = forwardRef<HTMLDivElement, Props>(
         {...props}
       >
         <motion.div
-          className="relative z-50 mx-auto flex max-w-screen-lg flex-col items-center gap-y-12 text-center"
+          className="relative z-50 mx-auto flex max-w-screen-2xl flex-col items-center gap-y-12 text-center"
           initial={{ opacity: 0, x: -10 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
@@ -42,7 +42,7 @@ const AboutUs = forwardRef<HTMLDivElement, Props>(
           <h2 className="z-50 max-w-4xl space-y-4 text-2xl font-semibold sm:text-5xl">
             We're on a mission to revolutionize the blockchain ecosystem
           </h2>
-          <div className="z-50 flex max-w-screen-lg flex-col gap-y-6 text-sm text-[#b9bac3] sm:text-lg">
+          <div className="z-50 flex max-w-screen-2xl flex-col gap-y-6 text-sm text-[#b9bac3] sm:text-lg">
             <p>
               At Unit Code, we are dedicated to developing state-of-the-art
               decentralized platform applications that transform and redefine

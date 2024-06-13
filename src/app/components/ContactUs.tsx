@@ -37,7 +37,7 @@ const ContactUs = forwardRef<HTMLDivElement, Props>(
           <h2 className="max-w-3xl text-2xl font-semibold sm:text-5xl">
             Want to get in touch?
           </h2>
-          <div className="z-50 flex max-w-screen-lg flex-col text-sm text-[#9596A2] sm:text-lg">
+          <div className="z-50 flex max-w-screen-2xl flex-col text-sm text-[#9596A2] sm:text-lg">
             <p>Send a message, and we’ll get back to you</p>
           </div>
           <div className="mt-6 grid grid-cols-3 items-center gap-2 sm:flex">
