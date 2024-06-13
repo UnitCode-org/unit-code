@@ -33,10 +33,10 @@ const ArrowDetail = forwardRef<HTMLDivElement, Props>(
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
         >
-          <h2 className="max-w-3xl text-5xl font-semibold">
+          <h2 className="max-w-3xl text-2xl font-semibold sm:text-5xl">
             An international collaborative of blockchain pioneers
           </h2>
-          <div className="z-50 flex max-w-screen-lg flex-col gap-y-6 text-lg text-[#b9bac3]">
+          <div className="z-50 flex max-w-screen-lg flex-col gap-y-6 text-sm text-[#b9bac3] sm:text-lg">
             <p>
               Unit Code is a global collective of diverse cultures, bringing
               together some of the brightest minds in blockchain technology.
