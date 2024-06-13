@@ -35,8 +35,8 @@ const AboutUs = forwardRef<HTMLDivElement, Props>(
       >
         <motion.div
           className="relative z-50 mx-auto flex max-w-screen-2xl flex-col items-center gap-y-12 text-center"
-          initial={{ opacity: 0, x: -10 }}
-          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
           <h2 className="z-50 max-w-4xl space-y-4 text-2xl font-semibold sm:text-5xl">

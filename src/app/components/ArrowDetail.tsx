@@ -17,35 +17,37 @@ const ArrowDetail = forwardRef<HTMLDivElement, Props>(
         ref={ref}
         {...props}
       >
-        <Image
-          src="/images/arrow-3d.png"
-          alt="Unit Code"
-          priority={true}
-          quality={100}
-          width={0}
-          height={0}
-          sizes="100vw"
-          className="z-50 mx-auto w-full max-w-xs object-cover"
-        />
         <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1.5 }}
           className="mx-auto flex max-w-screen-2xl flex-col items-center gap-y-12 text-center"
-          initial={{ opacity: 0, x: -10 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1 }}
         >
-          <h2 className="max-w-3xl text-2xl font-semibold sm:text-5xl">
-            An international collaborative of blockchain pioneers
-          </h2>
-          <div className="z-50 flex max-w-screen-2xl flex-col gap-y-6 text-sm text-[#b9bac3] sm:text-lg">
-            <p>
-              Unit Code is a global collective of diverse cultures, bringing
-              together some of the brightest minds in blockchain technology.
-            </p>
-            <p>
-              From it’s humble beginnings, Unit Code now operates remotely with
-              a team from all corners of the world, united in their mission to
-              innovate and transform the future of finance.
-            </p>
+          <Image
+            src="/images/arrow-3d.png"
+            alt="Unit Code"
+            priority={true}
+            quality={100}
+            width={0}
+            height={0}
+            sizes="100vw"
+            className="z-50 mx-auto w-full max-w-xs object-cover"
+          />
+          <div className="mx-auto flex max-w-screen-2xl flex-col items-center gap-y-12 text-center">
+            <h2 className="max-w-3xl text-2xl font-semibold sm:text-5xl">
+              An international collaborative of blockchain pioneers
+            </h2>
+            <div className="z-50 flex max-w-screen-2xl flex-col gap-y-6 text-sm text-[#b9bac3] sm:text-lg">
+              <p>
+                Unit Code is a global collective of diverse cultures, bringing
+                together some of the brightest minds in blockchain technology.
+              </p>
+              <p>
+                From it’s humble beginnings, Unit Code now operates remotely
+                with a team from all corners of the world, united in their
+                mission to innovate and transform the future of finance.
+              </p>
+            </div>
           </div>
         </motion.div>
         <Image
