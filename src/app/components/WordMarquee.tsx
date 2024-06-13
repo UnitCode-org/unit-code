@@ -12,6 +12,12 @@ const words = [
   "Reimagine",
   "Engineer",
   "Envision",
+  "Develop",
+  "Create",
+  "Advance",
+  "Transform",
+  "Redefine",
+  "Enhance",
 ];
 
 interface Props extends React.HTMLProps<HTMLDivElement> {
