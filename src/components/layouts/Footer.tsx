@@ -19,30 +19,35 @@ function Footer() {
         <Separator className="w-20 bg-[#3E3E3E] sm:w-80" />
         <div className="grid grid-cols-3 items-center gap-2 sm:flex">
           <Link
+            target="_blank"
             href="https://www.instagram.com/unit.network"
             className="rounded-full border border-[#565656] p-3 sm:p-2"
           >
             <FaInstagram className="mx-auto size-5 sm:size-3" />
           </Link>
           <Link
+            target="_blank"
             href="https://t.me/unitfoundation"
             className="rounded-full border border-[#565656] p-3 sm:p-2"
           >
             <FaTelegram className="mx-auto size-5 sm:size-3" />
           </Link>
           <Link
+            target="_blank"
             href="https://www.facebook.com/theunitnetwork"
             className="rounded-full border border-[#565656] p-3 sm:p-2"
           >
             <FaFacebook className="mx-auto size-5 sm:size-3" />
           </Link>
           <Link
+            target="_blank"
             href="https://twitter.com/theunitnetwork"
             className="rounded-full border border-[#565656] p-3 sm:p-2"
           >
             <FaXTwitter className="mx-auto size-5 sm:size-3" />
           </Link>
           <Link
+            target="_blank"
             href="https://www.linkedin.com/company/theunitnetwork/"
             className="rounded-full border border-[#565656] p-3 sm:p-2"
           >

@@ -42,30 +42,35 @@ const ContactUs = forwardRef<HTMLDivElement, Props>(
           </div>
           <div className="mt-6 grid grid-cols-3 items-center gap-2 sm:flex">
             <Link
+              target="_blank"
               href="https://www.instagram.com/unit.network"
               className="rounded-full border border-[#565656] p-4"
             >
               <FaInstagram className="size-8 sm:size-6" />
             </Link>
             <Link
+              target="_blank"
               href="https://t.me/unitfoundation"
               className="rounded-full border border-[#565656] p-4"
             >
               <FaTelegram className="size-8 sm:size-6" />
             </Link>
             <Link
+              target="_blank"
               href="https://www.facebook.com/theunitnetwork"
               className="rounded-full border border-[#565656] p-4"
             >
               <FaFacebook className="size-8 sm:size-6" />
             </Link>
             <Link
+              target="_blank"
               href="https://twitter.com/theunitnetwork"
               className="rounded-full border border-[#565656] p-4"
             >
               <FaXTwitter className="size-8 sm:size-6" />
             </Link>
             <Link
+              target="_blank"
               href="https://www.linkedin.com/company/theunitnetwork/"
               className="rounded-full border border-[#565656] p-4"
             >

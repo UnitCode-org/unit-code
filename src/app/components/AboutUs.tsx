@@ -53,7 +53,7 @@ const AboutUs = forwardRef<HTMLDivElement, Props>(
               transparent, and efficient systems that empower users.
             </p>
           </div>
-          <Link href="https://unit.network/" className="z-50">
+          <Link target="_blank" href="https://unit.network/" className="z-50">
             <Button variant="outline">Learn More</Button>
           </Link>
         </motion.div>

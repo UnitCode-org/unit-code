@@ -32,7 +32,7 @@ const UnitNetwork = forwardRef<HTMLDivElement, Props>(
               in the real world.
             </p>
             <div className="mt-6 flex items-center gap-x-3">
-              <Link href="https://app.unit.network/login">
+              <Link target="_blank" href="https://app.unit.network/login">
                 <Button variant="default" className="bg-[#01000A]">
                   Explore the full platform
                 </Button>

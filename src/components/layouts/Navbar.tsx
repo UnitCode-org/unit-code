@@ -58,7 +58,6 @@ function Navbar() {
             >
               Contact Us
             </div>
-            <Link href="https://www.unit.network/">Unit Network</Link>
           </div>
           <SheetTrigger>
             <IoMenu className="block size-8 md:hidden" />
@@ -98,9 +97,6 @@ function Navbar() {
                 Contact Us
               </div>
             </SheetClose>
-          </li>
-          <li>
-            <Link href="https://www.unit.network/">Unit Network</Link>
           </li>
         </ul>
       </SheetContent>
